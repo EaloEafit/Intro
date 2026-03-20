@@ -7,7 +7,7 @@ public class IfElse : MonoBehaviour
 // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (numberToCheck % 2 == 0)
+        if (numberToCheck % 2 == 0) //% se usa para el residuo de la division
         {
             Debug.Log ("El numero " + numberToCheck + " es Par");
         }
